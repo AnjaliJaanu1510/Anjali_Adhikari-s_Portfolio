@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali's Portfolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script
+      src="https://kit.fontawesome.com/cb5289c0cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!--navbar-->
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Anjali's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </nav>
+    </header>
+<!--body-->
+<section id="home">
+<div class="container" >
+  <div class="row">
+   <div class="left-section col-md-6">
+    <div class="intro">
+     <img src="images/mylogo.jpg" class="profile" alt="profile image"/>
+     <h2> Hi I'm <span> Anjali </span><br />
+      I am a passionate
+      <span class="element"> Web Developer </span></h2>
+   </div>
+    
+     <p class="para1">I love turning concepts into captivating online experiences. 
+      Dive into my portfolio, and let's make your digital dreams a reality.</p>
+     <div class="footer-first">Connect with me:</div><br>
+      <ul class="list-icons">
+       <li class="l1" ><a href="https://twitter.com/Anjali33315"><i class="fa-brands fa-twitter fa-2xl icon" style="color: #ffffff;"></i></a><li>
+       <li class="l2"><a href="https://www.instagram.com/anjali_jaanu1513/"><i class="fa-brands fa-square-instagram fa-2xl icon" style="color: #ffffff;"></i> </a></li>
+       <li class="l3"><a href="https://github.com/AnjaliJaanu1510"><i class="fa-brands fa-github fa-2xl icon" style="color: #ffffff;"></i></a></li>
+      </ul>
+     </div>
+     <div class="right-section col-md-6">
+        <img src="images/img1.jpg" alt="profile-pic" class="img-fluid">
+     </div>
+  </div>
+</div>  
+
+</div>
+
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>My Details</h3>
+        <strong>Name:</strong> Anjali G Adhikari
+        <br>
+        <strong>Birthday:</strong> 15 December 1999
+        <br>
+        <strong>Phone:</strong> 6362790045
+        <br>
+        <strong>Email:</strong> anjaliadhikari1999@gmail.com
+        <br>
+        <strong>Freelance:</strong> Available
+        <br>
+        <strong>City:</strong> Gadag, Karnataka-INDIA
+        <br>
+        <strong>Bachelor of Engineering:</strong> Basveshwar Engineering College,<br>
+        Bagalkot Karnataka-INDIA (2021).
+
+        <button class="btn-download"> <a href="https://drive.google.com/uc?export=download&id=1LoogyF3G2w6X9Z2GduBRMpKn2c4j0VcJ" download="Anjali_Resume1.pdf" >Download Resume</a></button>
+
+
+      </div>
+      <div class="col-md-6" class="skills">
+        <h3>Skills</h3>
+        <canvas id="skillsChart"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-12 mb-4">
+          <h2 class="section-heading">My Projects</h2>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="card custom-card">
+          <img src="images/to-do-list.png" class="card-img-top  custom-card-height" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">To-do-List</h5>
+            <p class="card-text">A to-do list app helps streamline tasks, keeping you organized and focused on daily priorities.</p>
+            <a href="https://anjalijaanu1510.github.io/ToDoList_App/" class="btn btn-grad">Explore More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card custom-card">
+          <img src="images/weather-app.png" class="card-img-top  custom-card-height" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">A weather app gives quick, accurate forecasts, helping users plan their day with ease..</p>
+            <a href="https://anjalijaanu1510.github.io/weather_app/" class="btn btn-grad ">Explore More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card custom-card">
+          <img src="images/qr-code.png" class="card-img-top  custom-card-height" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">QR code generator</h5>
+            <p class="card-text">A QR code generator instantly creates scannable QR codes for quick sharing of information or links.</p>
+            <a href="https://anjalijaanu1510.github.io/QR_Code_generator.io/" class="btn  btn-grad ">Explore More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card custom-card">
+          <img src="images/keeps.png" class="card-img-top custom-card-height" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Google Keep Clone</h5>
+            <p class="card-text">Google Keep is a user-friendly note-taking app for capturing ideas and organizing tasks seamlessly.</p>
+            <a href="https://anjalijaanu1510.github.io/React_GoogleKeep_clone/" class="btn btn-grad">Explore More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card custom-card">
+          <img src="images/website.png" class="card-img-top  custom-card-height" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Responsive Food website</h5>
+            <p class="card-text"> Explore our restaurant's menu and make reservations for a delightful culinary experience!.
+            </p>
+            <a href="https://anjalijaanu1510.github.io/MyFood_website.github.io/" class="btn btn-grad">Explore More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class=" custom-card">
+          <img src="images/gify3.webp" class="gify" alt="gify">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <h4 style="text-align:center">Many more to come .....</h4>
+</section>
+
+<section id="contact">
+  <div class="container ">
+    <div class="row ">
+  <div class="container-contact">
+    <h2>Contact Form</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="ec26d2a9-7eb6-46dd-8fee-12096a34976e">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit" class="btn-download sub">Submit</button>
+    </form>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+<footer class="bg-body-tertiary text-white text-center py-3">
+  <p id="copyright"></p>
+</footer>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+   var typed = new Typed(".element", {
+        strings: ["Web Developer.", "Creator.", "Web Designer."],
+        typeSpeed: 170,
+        backspeed: 170,
+        loop: true,
+      });
+</script>
+
+<script>
+  // JavaScript to update the copyright year
+  document.getElementById("copyright").innerHTML = "&copy; " + new Date().getFullYear() + " Anjali's Portfolio. All rights reserved.";
+</script>
+
+
+<script>
+  
+  const skillsData = {
+    labels: ['HTML', 'CSS', 'Javascript','React' ,'MERN', 'Photoshop & Design'],
+    datasets: [{
+      label: 'Skill Level',
+      data: [80, 72, 80, 60, 60,70], 
+      backgroundColor: '#191970',
+      borderColor: '#00FFFF',
+      borderWidth: 1,
+      barThickness: 50 
+    }]
+  };
+
+  const ctx = document.getElementById('skillsChart').getContext('2d');
+  const skillsChart = new Chart(ctx, {
+    type: 'bar',
+    data: skillsData,
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>
