@@ -21,7 +21,8 @@ body {
 }
 
 #home {
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    padding:10px;
 }
 
 .navbar.bg-body-tertiary {
@@ -202,16 +203,14 @@ textarea:focus{
     padding: 0px; 
   }
 
-  .custom-card-height{
-    height:250px;
-   
-  }
-/* 
-  .gify{
-    margin-left:30px;
-    width:250px;
-    height:250px;
-  } */
+  .custom-card-height {
+    max-width: 300px; 
+    height: auto; 
+    aspect-ratio: 1; 
+    padding-left: 50px;
+}
+
+
 
            
            
@@ -358,4 +357,14 @@ textarea:focus{
         width:200px;
         height:200px;
       } 
+      .header{
+        padding:0 2px;
+      }
+      #projects{
+        padding:5px;
+      }
+      #about{
+        padding:10px;
+      }
+     
 }
